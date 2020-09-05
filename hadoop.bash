@@ -10,6 +10,7 @@ rm ~/hadoop-3.1.4.tar.gz
 mkdir /dev/shm/hadoop/
 mkdir /dev/shm/hadoop/data
 mkdir /dev/shm/hadoop/name
+pwd > /dev/shm/wd
 echo '<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
 <configuration>
