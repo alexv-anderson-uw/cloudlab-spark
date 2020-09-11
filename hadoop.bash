@@ -5,7 +5,7 @@ sudo apt-get --yes install openjdk-8-jdk
 
 wget http://apache.mirrors.hoobly.com/hadoop/common/hadoop-3.1.4/hadoop-3.1.4.tar.gz -O ~/hadoop-3.1.4.tar.gz
 tar zvxf ~/hadoop-3.1.4.tar.gz -C ~
-rm ~/hadoop-3.1.4.tar.gz
+# rm ~/hadoop-3.1.4.tar.gz
 
 mkdir /dev/shm/hadoop/
 mkdir /dev/shm/hadoop/data
