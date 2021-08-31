@@ -19,8 +19,8 @@ Choose one node to mange the others. On that node:
 + Configure Spark Settings
   - Copy the list of IPs to Spark's configuration: cp hadoop-3.1.4/etc/hadoop/workers spark-3.0.0-bin-hadoop2.7/conf/slaves
 + Start Hadoop
-  - Execute: hdfs namenode -format
-  - Execute: start-dfs.sh
+  - Execute: hadoop-3.1.4/bin/hdfs namenode -format
+  - Execute: hadoop-3.1.4/sbin/start-dfs.sh
 + Start Spark
   - spark-3.0.0-bin-hadoop2.7/sbin/start-all.sh
 
